@@ -36,7 +36,7 @@ p{
 }
 
 .header{
-    background-color: rgb(166, 206, 206);
+    background-color: rgb(151, 182, 187);
     height:15vh;
     /*border:1px solid #333;*/
     grid-column: 1/5;
@@ -44,10 +44,10 @@ p{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 2vh;
+    padding-right: 2vh;
     z-index:0;
-    font-size:1.5rem;
+    font-size:3vh;
 }
 
 nav{
@@ -86,12 +86,12 @@ nav ul li a{
    /* border:1px solid #333;*/
     grid-column:1/4;
     border:1px solid wheat;
-    line-height: 2rem;
+    line-height: 4vh;
     padding-right:5vh;
     padding-left:5vh;
     padding-top: 5vh;
     padding-bottom: 5vh;
-    font-size: 1.5rem;
+    font-size: 2.5vh;
     text-align: justify;
     min-height: 75vh;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -122,6 +122,7 @@ nav ul li a{
     column-gap: 2vh;
     row-gap: 2vh;
     grid-template-columns: repeat(auto-fit,minmax(15vh,1fr));
+    line-height: 3vh;
 }
 .python{
     border:1px solid palegoldenrod;
@@ -211,7 +212,6 @@ nav ul li a{
     }
     .links{
         position: absolute;
-        border:1px solid black;
         width:100%;
         right:0;
         top:15vh;
@@ -219,7 +219,7 @@ nav ul li a{
         flex-direction: column;
         height:85vh;
         align-items: center;
-        background-color: white;
+        background-color: rgb(151, 182, 187);
         transform: translateY(-120%);
         transition: all 1s ease-in-out;
     }
@@ -238,6 +238,8 @@ nav ul li a{
     .footer{
         grid-column: 1/-1;
         grid-row: 4/5;
+        background-color: rgb(151, 182, 187);
+
     }
 
 }
