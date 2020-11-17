@@ -1,10 +1,11 @@
 window.onload=function(){
     var week={'1':'Monday','2':'Tuesday','3':'Wednesday','4':'Thursday','5':'Friday','6':'Saturday','0':'Sunday'}
-    var date=new Date();
+    
     
 
     box=document.querySelector('.date')
     function time(){
+        var date=new Date();
         box.innerHTML='<h3>'+date.getDate()+'|'+date.getMonth()+'|'+date.getFullYear()+' '+week[date.getDay()]+' '+date.toLocaleTimeString()+'</h3>'
     }
 

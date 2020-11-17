@@ -49,7 +49,9 @@ p{
     z-index:0;
     font-size:3vh;
 }
-
+.header{
+    background-color: lightcyan;
+}
 nav{
     /*border:1px solid navy;*/
     width: 50%;
@@ -67,8 +69,18 @@ nav ul li{
 nav ul li a{
     text-decoration: none;
     color:black;
+    padding:0.3rem 1rem;
 }
+.links>li a:hover{
+    background-color:darkblue;
+    color:white;
+    border:2px solid white;
+    border-radius: 20px;;
 
+}
+#education,#intro,#projects{
+    border: 12px solid darkblue;
+}
 .burger .line{
     width:30px;
     height:5px;
